@@ -2,12 +2,12 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title th:text=${textoIndex}></title>
+    <title th:text=${titulo}></title>
     <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
     <body>
+        <h1 class="color-rojo" th:text=${titulo}></h1>
         <h1 class="color-rojo" th:text=${message}></h1>
-        <h2 class="color-azul" th:text=${textoIndex}></h2>
         <img th:src="@{/images/rubi.jpeg}"/>
     </body>
 </html>

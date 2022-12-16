@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class IntroController {
 
 
-    @Value("${texto.properties.index.titulo}")
+    @Value("${index.titulo}")
     private String textoIndex;
     // private String texto;
     //localhost:8080/index

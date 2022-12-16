@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySources;
 
 @Configuration
 @PropertySources({
-    @PropertySource("classpath:application.properties")
+    @PropertySource("classpath:texto.properties")
 })
 public class TextosPropertiesConfig {
     
